@@ -23,7 +23,6 @@ class _HomePageState extends State<HomePage> {
     String formattedDateTime = DateFormat('yyyy-MM-dd HH:mm').format(dateTime);
     return formattedDateTime;
   }
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

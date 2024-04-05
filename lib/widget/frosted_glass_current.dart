@@ -59,19 +59,15 @@ class FrostedGlassCurrent extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Row(
-                      children: [
-                        Text(
-                          description,
-                        ),
-                        const SizedBox(
-                          width: 10,
-                        ),
-                        Text(
-                          "$tempMin°C/$tempMax°C",
-                          style:Theme.of(context).textTheme.bodyMedium?.copyWith(fontSize: 18,),
-                        ),
-                      ],
+                    Text(
+                      description,
+                    ),
+                    const SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      "$tempMin°C/$tempMax°C",
+                      style:Theme.of(context).textTheme.bodyMedium?.copyWith(fontSize: 18,),
                     ),
                     Text(
                       "$temp°",
